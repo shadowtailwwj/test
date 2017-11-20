@@ -1,0 +1,134 @@
+<!--pages/erji/erji.wxml-->
+<!-- <text>pages/erji/erji.wxml</text> -->
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">    
+  <block wx:for="{{movies}}" wx:for-index="index">    
+    <swiper-item>    
+      <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>    
+    </swiper-item>    
+  </block>    
+</swiper>
+
+<view class="flex-row" style="display: block;">
+  <view class="flex-view-item">
+     <view class='titles'>
+      <image src='../../images/GPS.png' class='img'></image>
+      <text class='t1'>北京市海淀区中关村科技大厦</text>
+    </view>
+     <view class='title'>
+      <text class='h1' bindtap='map'>地图</text>
+      <image src='../../images/more.png' class='more'></image>
+    </view>  
+  </view>
+  <view class="flex-view-item">
+     <view class='titles'>
+      <image src='../../images/phone.png' class='img'></image>
+      <text class='t1'>电话：17718317494</text>
+    </view>
+     <view class='title'>
+      <text class='h1' bindtap='calling'>电话</text>
+      <image src='../../images/more.png' class='more'></image>
+    </view>  
+  </view>
+  <view class="flex-view-item">
+     <view class='titles'>
+      <image src='../../images/ewm.png' class='img'></image>
+      <text class='t1'>扫描二维码</text>
+    </view>
+     <view class='title'>
+      <text class='h1' bindtap='sm'>扫码</text>
+      <image src='../../images/more.png' class='more'></image>
+    </view>  
+  </view>
+</view>
+
+<view class="lists" style="display: block;">
+  <view>
+    <image src='https://img1.doubanio.com/lpic/s29329329.jpg' class='book'></image>
+    <view class='yumen'>
+      <view>
+        <text class='t2'>《贵客》</text>
+      </view>
+      <view>
+        <text class='t2'>作者：纳丁·戈迪默</text>
+      </view>  
+    </view>
+    <view class='yumen1'>
+      <view class='piao1'>
+        <text class='t4'>9.99¥</text>
+      </view>
+      <view class='piao2'>
+        <text class='h1' bindtap='viewbook'>借阅</text>
+        <image src='../../images/more.png' class='more'></image>
+      </view>  
+    </view>   
+  </view>
+</view>
+
+<view class="lists" style="display: block;">
+  <view>
+    <image src='https://img1.doubanio.com/lpic/s29329329.jpg' class='book'></image>
+    <view class='yumen'>
+      <view>
+        <text class='t2'>《贵客》</text>
+      </view>
+      <view>
+        <text class='t2'>作者：纳丁·戈迪默</text>
+      </view>  
+    </view>
+    <view class='yumen1'>
+      <view class='piao1'>
+        <text class='t4'>9.99¥</text>
+      </view>
+      <view class='piao2'>
+        <text class='h1' bindtap='viewbook'>借阅</text>
+        <image src='../../images/more.png' class='more'></image>
+      </view>  
+    </view>   
+  </view>
+</view>
+
+<view class="lists" style="display: block;">
+  <view>
+    <image src='https://img1.doubanio.com/lpic/s29329329.jpg' class='book'></image>
+    <view class='yumen'>
+      <view>
+        <text class='t2'>《贵客》</text>
+      </view>
+      <view>
+        <text class='t2'>作者：纳丁·戈迪默</text>
+      </view>  
+    </view>
+    <view class='yumen1'>
+      <view class='piao1'>
+        <text class='t4'>9.99¥</text>
+      </view>
+      <view class='piao2'>
+        <text class='h1' bindtap='viewbook'>借阅</text>
+        <image src='../../images/more.png' class='more'></image>
+      </view>  
+    </view>   
+  </view>
+</view>
+
+<view class="lists" style="display: block;">
+  <view>
+    <image src='https://img1.doubanio.com/lpic/s29329329.jpg' class='book'></image>
+    <view class='yumen'>
+      <view>
+        <text class='t2'>《贵客》</text>
+      </view>
+      <view>
+        <text class='t2'>作者：纳丁·戈迪默</text>
+      </view>  
+    </view>
+    <view class='yumen1'>
+      <view class='piao1'>
+        <text class='t4'>9.99¥</text>
+      </view>
+      <view class='piao2'>
+        <text class='h1' bindtap='viewbook'>借阅</text>
+        <image src='../../images/more.png' class='more'></image>
+      </view>  
+    </view>   
+  </view>
+</view>

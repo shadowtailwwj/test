@@ -1,0 +1,55 @@
+<!--pages/book/book.wxml-->
+<!-- <text>pages/book/book.wxml</text> -->
+<view class='h1'>
+  <image src='https://img1.doubanio.com/lpic/s29329329.jpg' class='img'></image>
+  <view class='t1'>
+    <view>
+      <text class='t2'>《贵客》</text>
+    </view>
+    <view class='t4'>
+      <text class='t3'>作者：纳丁·戈迪默 </text>
+    </view>
+    <view>
+      <text class='t3'>豆瓣评分：*分</text>
+    </view>
+    <view>
+      <text class='t3'>出版日期：2017-1-1</text>
+    </view>
+    <view>
+      <text class='t3'>出版社：北京燕山出版社</text>
+    </view>
+    <view>
+      <text class='t3'>定价：48.00¥</text>
+    </view>
+  </view>
+</view>
+<view class="book-mark">
+    <view class="mark-item">文学作品</view>
+    <view class="mark-item">大师</view>
+    <view class="mark-item">精装</view>
+    <view class="mark-item">外国文学</view>
+</view>
+
+ <view class="book-summary">
+    <text class="common-title">内容简介···</text>
+    <text class="book-text">        主人公詹姆斯·布雷是一位英国殖民官员，十年前因支持黑人运动而被放逐。十年后，他以“贵客”的身份应邀回到刚刚独立的国家参加庆典。很快，他陷入了权力派别的争斗旋涡。与此同时，他卷入了一段浪漫的婚外情。随着新国家中派系之争和暴力冲突愈演愈烈，布雷陷入选择的困惑……
+    </text>
+</view>
+
+<view class="book-share">
+    <text class="common-title">共享情况···</text>
+    <view class="share-item">
+        <image class="user-img" src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=3424486807,3445080459&fm=58"></image>
+        <text class="share-addr">湉静将该书共享至办公室502</text>
+        <text class="share-status">借出</text>
+    </view>
+    <view class="share-item">
+        <image class="user-img" src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=3527457130,1091777827&fm=58"></image>
+        <text class="share-addr">刘达其实是小名将该书共享至中国邮政电子商务中心5楼504</text>
+        <text class="share-status">在架</text>
+    </view>
+  </view>
+
+<view class="menu-btn">  
+  <view class="btn-item">借阅</view>
+</view>
