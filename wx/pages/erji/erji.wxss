@@ -42,14 +42,13 @@
   border-top: 10px solid #f3f3f3;
 }
 .book {
-  width: 35px;
+  width: 55px;
   height: 50px;
   padding: 5px 5px 5px 5px;
   float: left;
 }
 .t2 {
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 12px;
 }
 .yumen {
   float: left;

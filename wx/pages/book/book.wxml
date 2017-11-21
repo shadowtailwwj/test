@@ -1,55 +1,99 @@
 <!--pages/book/book.wxml-->
 <!-- <text>pages/book/book.wxml</text> -->
-<view class='h1'>
-  <image src='https://img1.doubanio.com/lpic/s29329329.jpg' class='img'></image>
-  <view class='t1'>
-    <view>
-      <text class='t2'>《贵客》</text>
-    </view>
-    <view class='t4'>
-      <text class='t3'>作者：纳丁·戈迪默 </text>
-    </view>
-    <view>
-      <text class='t3'>豆瓣评分：*分</text>
-    </view>
-    <view>
-      <text class='t3'>出版日期：2017-1-1</text>
-    </view>
-    <view>
-      <text class='t3'>出版社：北京燕山出版社</text>
-    </view>
-    <view>
-      <text class='t3'>定价：48.00¥</text>
-    </view>
+<view class='dy'>
+  <view>
+  <text class='title1'>豪华大床房-微信专享</text>
   </view>
-</view>
-<view class="book-mark">
-    <view class="mark-item">文学作品</view>
-    <view class="mark-item">大师</view>
-    <view class="mark-item">精装</view>
-    <view class="mark-item">外国文学</view>
+  <view class='rz'>
+  <text class='sj'>入住：2017-11-21</text>
+  </view>
+  <view class='ld'>
+  <text class='sj'>离店：2017-11-22</text>
+  </view>
+  <view class='jw'>
+  <text class='sj'>共一晚</text>
+  </view> 
 </view>
 
- <view class="book-summary">
-    <text class="common-title">内容简介···</text>
-    <text class="book-text">        主人公詹姆斯·布雷是一位英国殖民官员，十年前因支持黑人运动而被放逐。十年后，他以“贵客”的身份应邀回到刚刚独立的国家参加庆典。很快，他陷入了权力派别的争斗旋涡。与此同时，他卷入了一段浪漫的婚外情。随着新国家中派系之争和暴力冲突愈演愈烈，布雷陷入选择的困惑……
-    </text>
+
+<view class="flex-row" style="display: block;">
+  <view class="flex-view-item">
+     <view class='titles'>
+      <image src='../../images/dui.png' class='img'></image>
+      <text class='t1'>在线付款</text>
+    </view>
+     <view class='title'>
+      <text class='h1' bindtap='map'>在线完成付款，确认后到酒店直接入住。</text>
+      
+    </view>  
+  </view>
+  <view class="flex-view-item">
+     <view class='titles'>
+      <image src='../../images/fang.png' class='img'></image>
+      <text class='t2'>保留房间</text>
+    </view>
+     <view class='title'>
+      <text class='h1' bindtap='calling'>订单确认后房间将为您整晚保留。</text>
+    </view>  
+  </view>
+  <view class="flex-view-item">
+     <view class='titles'>
+      <image src='../../images/tan.png' class='img'></image>
+      <text class='t3'>取消规则</text>
+    </view>
+     <view class='title'>
+      <text class='h1' bindtap='sm'>预定后不可以取消或变更。</text>   
+    </view>  
+  </view>
 </view>
 
-<view class="book-share">
-    <text class="common-title">共享情况···</text>
-    <view class="share-item">
-        <image class="user-img" src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=3424486807,3445080459&fm=58"></image>
-        <text class="share-addr">湉静将该书共享至办公室502</text>
-        <text class="share-status">借出</text>
-    </view>
-    <view class="share-item">
-        <image class="user-img" src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=3527457130,1091777827&fm=58"></image>
-        <text class="share-addr">刘达其实是小名将该书共享至中国邮政电子商务中心5楼504</text>
-        <text class="share-status">在架</text>
-    </view>
+<view class='tiao'> </view>
+
+<view class='num'>
+  <view class='room'>房间数</view>
+  <view class='dianji'>
+    <view class='jian'>-</view>
+    <view class='yi'>1</view>
+    <view class='jia'>+</view>
   </view>
+</view>
+
+<view class='tiao'> </view>
+
+<view class='table'>
+  <view class='biao1'>入住人</view>
+  <view class='biao2'><input type='text' placeholder="入住人姓名"></input></view>
+</view>
+<view class='table'>
+  <view class='biao1'>手机号</view>
+  <view class='biao2'><input type='number' placeholder="联系人手机号"></input></view>
+</view>
+<view class='table1'>
+  <view class='jiage1'>总房价</view>
+  <view class='jiage2'>¥370</view>
+</view>
+
+<view class='tiao'> </view>
+
+<view class='table'>
+  <view class='biao1'>发票</view>
+  <view class='switch1'>
+    <switch bindchange="switch1Change" color='orange' checked/>
+  </view>
+</view>
+<view class="table3">
+  <view class='biao1'>税号</view>
+  <view class='biao3'><input type='text' placeholder="请输入个人/单位名称"></input></view>
+</view>
+<view class="table3">
+  <view class='biao1'>发票抬头</view>
+  <view class='biao4'><input type='text' placeholder="请输入纳税人识别号"></input></view>
+</view>
+<view class='table'>
+  <view class='biao1'>特殊需求</view>
+  <view class='wu'>无</view>
+</view>
 
 <view class="menu-btn">  
-  <view class="btn-item">借阅</view>
-</view>
+  <view class="btn-item">去支付</view>
+</view> 

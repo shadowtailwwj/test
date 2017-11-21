@@ -8,12 +8,12 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "雨石科技",
+    "navigationBarTitleText": "雨石酒店",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color": "#a9b7b7",
-    "selectedColor": "#11cd6e",
+    "color": "#B0C4DE",
+    "selectedColor": "#00BFFF",
     "borderStyle": "white",
     "list": [
       {
@@ -32,7 +32,7 @@
         "selectedIconPath": "images/33.png",
         "iconPath": "images/33.png",
         "pagePath": "pages/erji/erji",
-        "text": "开心测试"
+        "text": "订房"
       }
     ]
   }

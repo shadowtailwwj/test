@@ -4,7 +4,6 @@ Page({
 
   /**
    * 页面的初始数据
-   * ceshi git 
    */
   data: {
     movies: [

@@ -12,7 +12,7 @@
   <view class="flex-view-item">
      <view class='titles'>
       <image src='../../images/GPS.png' class='img'></image>
-      <text class='t1'>北京市海淀区中关村科技大厦</text>
+      <text class='t1'>北京市海淀区双榆树南里2区</text>
     </view>
      <view class='title'>
       <text class='h1' bindtap='map'>地图</text>
@@ -43,21 +43,21 @@
 
 <view class="lists" style="display: block;">
   <view>
-    <image src='https://img1.doubanio.com/lpic/s29329329.jpg' class='book'></image>
+    <image src='../../images/timg1.jpg' class='book'></image>
     <view class='yumen'>
       <view>
-        <text class='t2'>《贵客》</text>
+        <text class='t2'>普通大床房</text>
       </view>
       <view>
-        <text class='t2'>作者：纳丁·戈迪默</text>
+        <text class='t2'>15㎡ 大床1.8m WIFI 不含早</text>
       </view>  
     </view>
     <view class='yumen1'>
       <view class='piao1'>
-        <text class='t4'>9.99¥</text>
+        <text class='t4'>¥198</text>
       </view>
       <view class='piao2'>
-        <text class='h1' bindtap='viewbook'>借阅</text>
+        <text class='h1' bindtap='viewbook'>预定</text>
         <image src='../../images/more.png' class='more'></image>
       </view>  
     </view>   
@@ -66,21 +66,21 @@
 
 <view class="lists" style="display: block;">
   <view>
-    <image src='https://img1.doubanio.com/lpic/s29329329.jpg' class='book'></image>
+    <image src='../../images/timg.jpg' class='book'></image>
     <view class='yumen'>
       <view>
-        <text class='t2'>《贵客》</text>
+        <text class='t2'>标准大床房</text>
       </view>
       <view>
-        <text class='t2'>作者：纳丁·戈迪默</text>
+        <text class='t2'>25㎡ 大床1.8m WIFI 不含早</text>
       </view>  
     </view>
     <view class='yumen1'>
       <view class='piao1'>
-        <text class='t4'>9.99¥</text>
+        <text class='t4'>¥255</text>
       </view>
       <view class='piao2'>
-        <text class='h1' bindtap='viewbook'>借阅</text>
+        <text class='h1' bindtap='viewbook'>预定</text>
         <image src='../../images/more.png' class='more'></image>
       </view>  
     </view>   
@@ -89,21 +89,21 @@
 
 <view class="lists" style="display: block;">
   <view>
-    <image src='https://img1.doubanio.com/lpic/s29329329.jpg' class='book'></image>
+    <image src='../../images/20171121110557.png' class='book'></image>
     <view class='yumen'>
       <view>
-        <text class='t2'>《贵客》</text>
+        <text class='t2'>豪华大床房</text>
       </view>
       <view>
-        <text class='t2'>作者：纳丁·戈迪默</text>
+        <text class='t2'>25㎡ 大床1.8m WIFI 含早</text>
       </view>  
     </view>
     <view class='yumen1'>
       <view class='piao1'>
-        <text class='t4'>9.99¥</text>
+        <text class='t4'>¥370</text>
       </view>
       <view class='piao2'>
-        <text class='h1' bindtap='viewbook'>借阅</text>
+        <text class='h1' bindtap='viewbook'>预定</text>
         <image src='../../images/more.png' class='more'></image>
       </view>  
     </view>   
@@ -112,21 +112,21 @@
 
 <view class="lists" style="display: block;">
   <view>
-    <image src='https://img1.doubanio.com/lpic/s29329329.jpg' class='book'></image>
+    <image src='../../images/20171121110557.png' class='book'></image>
     <view class='yumen'>
       <view>
-        <text class='t2'>《贵客》</text>
+        <text class='t2'>精品大床房</text>
       </view>
       <view>
-        <text class='t2'>作者：纳丁·戈迪默</text>
+        <text class='t2'>25㎡ 大床1.8m WIFI 含早</text>
       </view>  
     </view>
     <view class='yumen1'>
       <view class='piao1'>
-        <text class='t4'>9.99¥</text>
+        <text class='t4'>¥390</text>
       </view>
       <view class='piao2'>
-        <text class='h1' bindtap='viewbook'>借阅</text>
+        <text class='h1' bindtap='viewbook'>预定</text>
         <image src='../../images/more.png' class='more'></image>
       </view>  
     </view>   

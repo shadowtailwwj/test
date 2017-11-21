@@ -5,7 +5,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    check: false
+  },
+  onLoad: function (options) {
+    // 生命周期函数--监听页面加载
+    check: (options.check == "false" ? false : true )
+  },
+  switch1Change: function (e) {
+    // console.log('checkbox类型开关当前状态-----', e.detail.value)
+    check: (e.detail.value == "true" ? true : false)
   },
 
   /**
